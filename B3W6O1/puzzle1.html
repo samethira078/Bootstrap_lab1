@@ -8,88 +8,89 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../../../AppData/Local/Temp/Rar$DRa15996.20413/number-validator/main.js"></script>
 </head>
 <body>
 
-<div>
-    <div>
-        <div>
+<div class="container border border-black">
+    <div class="row ">
+        <div class="col-5">
             <h1>Bootstrap Puzzle 1</h1>
         </div>
-        <div>
+        <div class="col-7">
             <a></a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="puzzle1.html">Puzzle 1</a></li>
-                <li><a href="puzzle2.html">Puzzle 2</a></li>
-                <li><a href="puzzle3.html">Puzzle 3</a></li>
-                <li><a href="bonus.html">Bonus</a></li>
+            <ul class="nav float-right mt-2">
+                <li class="nav-item mr-3"><a class="nav-link btn btn-outline-dark" href="index.html">Home</a></li>
+                <li class="nav-item mr-3"><a class="nav-link btn btn-outline-dark" href="puzzle1.html">Puzzle 1</a></li>
+                <li class="nav-item mr-3"><a class="nav-link btn btn-outline-dark" href="puzzle2.html">Puzzle 2</a></li>
+                <li class="nav-item mr-3"><a class="nav-link btn btn-outline-dark" href="puzzle3.html">Puzzle 3</a></li>
+                <li class="nav-item mr-3"><a class="nav-link btn btn-outline-dark" href="bonus.html">Bonus</a></li>
             </ul>
         </div>
     </div>
 
-    <div>
-        <div>
-            <a href="img/img1.jpg" target="_blank">
-                <img src="img/img1.jpg">
-                <span>Bekijk Boom 1</span>
+    <div class="d-flex">
+        <div class="row justify-content-center mt-3">
+            <a class="col-2 d-flex flex-column" href="img/img1.jpg" target="_blank">
+                <img class="img-thumbnail" src="img/img1.jpg">
+                <span class="d-flex justify-content-center text-warning">Bekijk Boom 1</span>
             </a>
-            <a href="img/img2.jpg" target="_blank">
-                <img src="img/img2.jpg">
-                <span>Bekijk Boom 2</span>
+            <a class="col-2 justify-content-center" href="img/img2.jpg" target="_blank">
+                <img class="img-thumbnail" src="img/img2.jpg">
+                <span class="d-flex justify-content-center text-danger">Bekijk Boom 2</span>
             </a>
-            <a href="img/img3.jpg" target="_blank">
-                <img src="img/img3.jpg">
-                <span>Bekijk Boom 3</span>
+            <a class="col-2 justify-content-center" href="img/img3.jpg" target="_blank">
+                <img class="img-thumbnail" src="img/img3.jpg">
+                <span class="d-flex justify-content-center text-success">Bekijk Boom 3</span>
             </a>
-            <a href="img/img4.jpg" target="_blank">
-                <img src="img/img4.jpg">
-                <span>Bekijk Boom 4</span>
+            <a class="col-2 justify-content-center" href="img/img4.jpg" target="_blank">
+                <img class="img-thumbnail" src="img/img4.jpg">
+                <span class="d-flex justify-content-center">Bekijk Boom 4</span>
             </a>
-            <a href="img/img5.jpg" target="_blank">
-                <img src="img/img5.jpg">
-                <span>Bekijk Boom 5</span>
+            <a class="col-2 justify-content-center" href="img/img5.jpg" target="_blank">
+                <img class="img-thumbnail" src="img/img5.jpg">
+                <span class="d-flex justify-content-center text-dark">Bekijk Boom 5</span>
             </a>
         </div>
     </div>
 
     <div>
-        <div>
-            <div>
-                <img src="img/item1.jpg">
+        <div class="row">
+            <div class="col-3 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item1.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item1text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item1text">Lees meer &hellip;</a></p>
             </div>
-            <div>
-                <img src="img/item2.jpg">
+            <div class="col-6 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item2.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item2text">Lees meer &hellip;</a></p>
             </div>
-            <div>
-                <img src="img/item3.jpg">
+            <div class="col-3 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item3.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item3text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item3text">Lees meer &hellip;</a></p>
             </div>
         </div>
 
-        <div>
-            <div>
-                <img src="img/item4.jpg">
+        <div class="row">
+            <div class="col-4 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item4.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item4text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item4text">Lees meer &hellip;</a></p>
             </div>
-            <div>
-                <img src="img/item5.jpg">
+            <div class="col-3 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item5.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item5text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item5text">Lees meer &hellip;</a></p>
             </div>
-            <div>
-                <img src="img/item6.jpg">
+            <div class="col-5 img-thumbnail border border-black">
+                <img class="img-fluid" src="img/item6.jpg">
                 <h2>Etiam hendrerit vel sem ac accumsan</h2>
                 <p id="item6text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
                 <p><a href="#item6text">Lees meer &hellip;</a></p>
@@ -98,7 +99,7 @@
     </div>
 
     <div>
-        <div>
+        <div class="text-center">
             <span>Created with:</span>
             <a href="https://getbootstrap.com/" target="_blank"><img src="img/logo-bootstrap.png"></a>
             <a href="https://fontawesome.com/" target="_blank"><img src="img/logo-fontawsome.png"></a>
